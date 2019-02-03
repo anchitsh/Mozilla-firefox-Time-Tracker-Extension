@@ -1,0 +1,25 @@
+{   
+    "manifest_version":2,
+    "name":"Time_Tracker",
+    "version":"1.0",
+
+    "description": "tracks time spent on the top 3 websites",
+    
+    "icons": {
+        "48": "something.png"
+    },
+    
+    "permissions": ["webRequest","tabs","storage","unlimitedStorage"],
+    
+   
+    "browser_action": {
+        "default_icon": "something.png",
+        "default_title": "Time Tracker",
+        "default_popup": "popup.html"
+      },
+
+    "background":{
+           "scripts":["background.js"]
+   }
+}
+
